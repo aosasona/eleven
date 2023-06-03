@@ -66,8 +66,8 @@ func New(args ...string) *Eleven {
 	}
 }
 
-// SetSecret sets the secret to be used for all requests after the point it is called.
-func (e *Eleven) SetSecret(secret string) {
+// SetAPIKey sets the secret to be used for all requests after the point it is called.
+func (e *Eleven) SetAPIKey(secret string) {
 	e.secret = secret
 }
 
